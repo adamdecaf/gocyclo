@@ -1,5 +1,7 @@
 Gocyclo calculates cyclomatic complexities of functions in Go source code.
 
+[![Build Status](https://travis-ci.com/adamdecaf/gocyclo.svg?branch=master)](https://travis-ci.com/adamdecaf/gocyclo)
+
 The cyclomatic complexity of a function is calculated according to the
 following rules:
 
@@ -28,4 +30,3 @@ Examples:
 The output fields for each line are:
 
     <complexity> <package> <function> <file:row:column>
-
